@@ -38,8 +38,7 @@ public class MapperTests {
         int rows = discussPostMapper.selectDiscussPostRows(149);
         System.out.println(rows);
 
-        System.out.println("测试2");
-        System.out.println("测试3");
+        System.out.println(111);
 
 
     }
