@@ -37,8 +37,6 @@ public class MapperTests {
          */
         int rows = discussPostMapper.selectDiscussPostRows(149);
         System.out.println(rows);
-        //给这里添加一条注释
-        System.out.println(111);
 
 
 
