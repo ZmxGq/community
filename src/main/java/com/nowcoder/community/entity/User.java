@@ -5,6 +5,7 @@ import lombok.Data;
 import java.util.Date;
 
 /**
+ * 用户类
  * @author zmx
  * @create 2022-06-13 20:38
  */

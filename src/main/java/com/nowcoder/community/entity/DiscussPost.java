@@ -4,7 +4,7 @@ import lombok.Data;
 
 import java.util.Date;
 
-/**
+/** 邮件类
  * @author zmx
  * @create 2022-06-12 20:13
  */
