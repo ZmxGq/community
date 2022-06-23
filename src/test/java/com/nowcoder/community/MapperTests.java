@@ -41,6 +41,10 @@ public class MapperTests {
         System.out.println(111);
         System.out.println("xixi");
         System.out.println("hellogit5");
+        System.out.println("hellogit101");
+        System.out.println("hellogit102");
+        System.out.println("hellogit103");
+        System.out.println("yahoo");
 
 
     }
