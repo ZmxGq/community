@@ -2,6 +2,8 @@ package com.nowcoder.community;
 
 import com.nowcoder.community.entity.DiscussPost;
 import com.nowcoder.community.dao.DiscussPostMapper;
+import com.nowcoder.community.entity.User;
+import com.nowcoder.community.service.UserService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -17,7 +19,10 @@ public class MapperTests {
 
 
     @Autowired
-    DiscussPostMapper discussPostMapper;
+    private DiscussPostMapper discussPostMapper;
+
+    @Autowired
+    private UserService userService;
 
     /**
      * 测试DiscussPostMapper中SelectPosts是否书写正确
@@ -39,6 +44,18 @@ public class MapperTests {
         System.out.println(rows);
 
 
+    }
+
+    @Test
+    public void testUserMapper(){
+//        System.out.println(userService.findUserByName(""));
+//        System.out.println(userService.findUserByEmail("@sina.com"));
+//        User user = new User();
+//        user.setUsername("123");
+//        user.setPassword("asdfa");
+//        System.out.println(userService.insertUser(user));
+
+        System.out.println(userService.updateStatus(149,1));
 
     }
 }
