@@ -6,10 +6,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ContextConfiguration;
 
-/**
- * @author zmx
- * @create 2022-06-22 10:15
- */
+
 @SpringBootTest
 @ContextConfiguration(classes = CommunityApplication.class)
 public class LoggerTests {
